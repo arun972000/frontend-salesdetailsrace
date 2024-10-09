@@ -93,7 +93,7 @@ const FormComponent = () => {
 
   const formSubmit = async () => {
     try {
-      await axios.post("https://backend-salesdetailsrace.onrender.com/upload", formData);
+      await axios.post("https://race-subscriber-form.onrender.com/upload", formData);
       setOpen(true);
     } catch (err) {
       console.log(err);

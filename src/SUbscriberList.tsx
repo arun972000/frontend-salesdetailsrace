@@ -11,7 +11,7 @@ const SubscriberList = () => {
 
     const getSubscribers=async()=>{
         try{
-            const res= await axios.get('https://backend-salesdetailsrace.onrender.com/api/sub-lists')
+            const res= await axios.get('https://race-subscriber-form.onrender.com/api/sub-lists')
             setSubscribers(res.data)
         }catch(err){
             console.log(err)
